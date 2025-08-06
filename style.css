@@ -1,0 +1,17 @@
+html,
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+nav{
+        /* background-color: #000; */
+    position: fixed; /* Fija la barra de navegación en la pantalla */
+    width: 100%; /* Ocupa el 100% del ancho de la ventana */
+    height: 100px; /* Altura de 100 píxeles */
+    top: 0; /* Se pega al borde superior */
+    left: 0; /* Se pega al borde izquierdo */
+    font-size: 20px; /* Tamaño de fuente de 20px */
+    z-index: 1;
+}
